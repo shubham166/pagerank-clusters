@@ -1,0 +1,3 @@
+Input Representation : Sparse Adjacency Matrix further compressed into three arrays Wg, Wi, Wo which represents edges, cumulative indegree of pages and outdegrees.
+
+Mapping : Only one node reads the data from input file and scatter uniformly to remaining nodes of cluster. Every Node, in each iteration calculates page rank for some pages and broadcast to every other nodes of cluster. Residue error i.e. difference between ranks in previous iteration and current iteration is used for convergence point for terminating iterations.

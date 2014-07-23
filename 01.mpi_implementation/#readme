@@ -1,0 +1,3 @@
+Run makefile which has follwing template for running 
+
+mpirun -n <no. of nodes of cluster> <driver executable> <no. of pages> <input filename> -host <list of ips of nodes in cluster> > <output filename> 

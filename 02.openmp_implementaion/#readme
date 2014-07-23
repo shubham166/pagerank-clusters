@@ -1,0 +1,3 @@
+Run makefile which has following template 
+
+./<executable file> <input filename> <no. of pages> <no. of cores> > <output filename>

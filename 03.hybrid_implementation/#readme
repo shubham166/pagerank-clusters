@@ -1,0 +1,3 @@
+Run makefile which has following template
+
+mpirun -np <number of nodes> ./<executable file> <number of pages> <number of cores> <input filename> -host <list of ips of nodes in cluster> > <output filename>

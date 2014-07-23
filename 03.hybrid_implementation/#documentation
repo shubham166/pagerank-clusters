@@ -1,0 +1,2 @@
+At cluster level, one thread of one of the nodes read the file of adjacency matrix, distribute it to other nodes. Every thread on every node computes page rank and updates the RankDest vector by broadcasting it other nodes. 
+Convergence is done by calculating residue error in rank vector in previous and current iteration or upper bound on iterations, whichever point come first.

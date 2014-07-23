@@ -1,0 +1,4 @@
+Mapping for OpenMP Part:
+-----------------------------------------------------------------
+Only one thread reads the graph which is in the form of adjacency matrix. The pagerank of different pages is being scaled to a normalized vector by all the threads, 
+and then these are updated using a vector product. This process continues until the error that is the total change>1e-8 or number of iterations crosses 100.
